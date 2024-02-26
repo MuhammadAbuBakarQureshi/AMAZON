@@ -1,0 +1,632 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+
+body{
+
+    background-color: #E3E6E6;
+}
+
+
+                                        /*THIS IS FOR NAV-BAR LOGO  */
+
+
+
+
+#nav-bar{
+
+    height: 60px;
+    background-color: #0d3d38;
+    display: flex;
+    justify-content: space-evenly ;
+    color: white;
+
+
+}
+
+#nav-logo{
+
+    height: 50px;
+    width: 140px;
+}
+
+#logo{
+
+    background-image: url(/IMAGES/nav-logo.png);
+    background-size: cover;
+    position:absolute;
+    top: 5px;
+    left: 7px;
+    height: 50px;
+    width: 140px;
+    
+}
+
+.nav-border{
+
+    border: 1px solid transparent;
+}
+
+.nav-border:hover{
+
+    border: 1.5px solid white;
+}
+
+
+                                        /*THIS IS FOR NAV-BAR ADDRESS*/
+
+
+
+#nav-bar-add{
+
+    margin-top: 5px;
+    height: 42px;
+    padding: 8px 10px 0px 10px;
+    
+}
+
+
+#add-first{
+
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+#add-second{
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+#add-icon{
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+                                        /*THIS IS FOR NAV-BAR SEARCH*/
+
+
+
+#nav-bar-search{
+
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px 0px 10px 0px;
+    width: 800px;
+    border-radius: 4px;
+    border: none;
+}                                        
+
+#nav-bar-search:hover{
+
+    
+
+    border: 3px solid rgb(209, 106, 123);
+    border-radius: 6.5px ;
+}
+
+#search-select{
+
+
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   width: 48px;
+   text-align: center;
+   border: none;
+   background-color: #dddcdc;
+}
+
+#nav-search{
+
+    width: 100%;
+    padding: 7px 10px 10px 7px;
+    font-size: 1rem;
+    border: none;
+}
+
+#search-icon{
+    
+    width: 30px;
+    padding: 12px 6px 0px 13px;
+    background-color: #FFDFD7;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#search-icon:hover{
+
+    background-color: #f4b4a4;
+}
+
+
+                                /* THIS FOR NAV-BAR ACCOUNTS & LISTS  */
+
+
+
+#nav-bar-account{
+
+    margin: 5px;
+    padding: 10px 10px 0px 10px;
+    height: 40px;
+}
+
+.account-first{
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.account-second{
+
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+
+                                /*THIS IS FOR NAV-BAR RETURNS & ORDERS*/
+
+
+
+/* EVERY STYLE FOR RETURNS & ORDERS ARE USED FROM NAV-BAR ACCOUNTS & LISTS  */
+
+
+
+                                /*THIS IS FOR NAV-BAR CART*/
+
+
+                       
+#nav-bar-cart{
+
+    display: flex;
+    padding: 4px 10px 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}                     
+
+#cart-icon i{
+
+    font-size: 40px;
+
+}
+
+#cart-text{
+
+
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 20px 0px 0px 3px;
+
+
+}
+
+
+
+
+       
+
+                                                 /*         THIS IS FOR PANEL                 */
+
+
+
+
+
+
+
+                                                 /* THIS FOR PANEL ICON */
+
+
+
+
+#panel{
+
+    height: 39px;
+    width: 100%;
+    background-color: #195851;
+    color: white;
+    display: flex;
+     
+
+}                                                 
+
+.panel-border{
+
+    border: 1px solid transparent;
+}
+
+.panel-border:hover{
+
+    border: 1.5px solid white;
+}
+
+#panel-icon {
+
+
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+    padding: 10px 10px 0px 10px;
+
+} 
+
+#panel-icon a{
+
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0px 0px 0px 4px;
+}
+
+
+
+                                                /*THIS IS FOR EVERY PANEL-LINKS*/
+
+
+
+.panel-links{
+
+    padding: 10px 10px 0px 10px;
+}
+
+
+#panel-last-link{
+
+    height: 23px;
+    padding: 3px 10px 0px 10px;
+    margin: 4px 15px 0px 7px;
+    position: absolute;
+    right: 0px;
+    font-weight: bolder;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+#panel-last-link:hover{
+
+    border:3px solid white ;
+    border-radius: 4px;
+}
+
+
+
+
+
+                                             /*THIS IS FOR HERO SECTION*/
+
+
+
+
+
+#hero{
+
+   background-image: url(/IMAGES/hero.jpg);
+   height: 400px;
+   background-size: cover;
+   
+}  
+
+
+
+                                             /*THIS IS FOR PRODUCT BOXES*/
+
+
+
+
+
+.row{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.product{
+
+    height: 420px;
+    width: 340px;
+    background-color: white;
+
+}
+
+.image-head{
+
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.row-box{
+
+    width: 305px;
+    margin-left: 17px;
+    margin-top: 18px;
+
+}
+
+.shop{
+
+    margin-top: 15px;
+    margin-left: 16px;
+    font-size: 14px;
+    color: #2a7c74;
+    text-decoration: none;
+}
+
+.shop:hover{
+
+    color: rgb(231, 84, 30);
+}
+
+
+
+                                           /*THIS IS FOR THE LONG PICTURE PRODUCT*/ 
+
+
+
+
+.long-panel{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#long-panel{
+
+
+    height: 280px;
+    width: 97.2%;
+    background-image: url(/IMAGES/long\ picture.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+                                          /* THIS IS FOR THE FOOTER SECTION */
+
+
+
+
+#back-to-top{
+
+    height: 49px;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}                                          
+
+
+#back-to-top:hover{
+
+    background-color: rgb(76, 96, 118);
+}
+
+
+
+                                        /*THIS IS FOR HEADING LINKS*/ 
+
+
+
+#main-link{
+
+    height: 500px;
+    width: 100%;
+    background-color: #232F3E;
+
+}
+
+#heading-links{
+
+    font-size: 16px; 
+    color: white;
+    font-weight: bolder;
+    display: flex;
+
+}
+
+
+.p{
+
+    position:relative;
+    top: 50px;
+    margin-left: 180px;
+
+}
+
+
+#under-head-links{
+
+     display: flex;
+     position: relative;
+     top: 60px;
+
+}
+
+
+                                        /*THIS IS FOR THE LINKS UNDER THE HEAD LINKS*/
+
+
+.p1{
+
+    color: rgb(199, 197, 197);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 179px;
+}
+
+.p2{
+
+    color: rgb(199, 197, 197);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 188px;
+}
+
+.p3{
+
+    color: rgb(199, 197, 197);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 140px;
+}
+
+.p4{
+
+    color: rgb(199, 197, 197);
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 200px;
+}
+
+
+
+
+
+                                    /*THIS IS FOR THE FOOTER LOGO SECTION IN THE FOOTER*/
+
+
+
+
+
+
+#footer-logo-section{
+
+    display: flex;
+}
+
+
+                                    /*THIS IS FOR THE LOGO IN THE FOOTER*/
+
+
+#footer-logo{
+
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 430px;
+}
+
+
+
+                                    /*THIS IS FOR THE LANGUAGE BOX*/
+
+
+
+#language{
+
+
+    background-color: transparent;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 3px;
+    height: 33px;
+    width: 120px;
+    text-align: center;
+    color: rgb(189, 184, 184);
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+
+
+
+                                    /*THIS IS FOR THE CASH BOX*/
+                         
+
+
+#dollar{
+
+    height: 31px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 3px;
+    margin-top: 35px;
+    margin-left: 9px;
+    
+}
+
+#dollar1{
+
+    font-size: medium;
+    color: rgb(189, 184, 184);
+    margin-top: 6.5px;
+    margin-left: 20px;
+}
+
+
+
+                                    /*THIS IS FOR COUNTRY SELECTION*/
+
+
+
+#country{
+
+    height: 31px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid rgb(189, 184, 184);
+    border-radius: 3px;
+    margin-top: 35px;
+    margin-left: 9px;
+    
+}                                    
+
+#country1{
+
+    font-size: medium;
+    color: rgb(189, 184, 184);
+    margin-top: 6.5px;
+    margin-left: 40px;
+}   
+
+
+
+                                            /*THIS IS FOR END OF THE PAGE*/
+
+
+
+#footer-end{
+
+
+    height: 100px;
+    width: 100%;
+    background-color: #131A22;
+    color: white;
+     
+}
+
+#o{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.p6{
+  
+    
+    margin: 35px 0px 5px 15px;
+
+}
+ 
+#copyright{
+
+
+    margin-top: 0px;
+    margin-left: 625px;
+} 
